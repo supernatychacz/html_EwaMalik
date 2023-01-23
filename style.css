@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: #93989c;
+  width: fit-content;
 }
 h1 {
   color: #f37e53;
