@@ -1,7 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: #93989c;
-  background-clip: border-box;
 }
 h1 {
   color: #f37e53;
@@ -20,6 +19,7 @@ h2 {
   margin-left: 0px;
   padding-left: 0px;
   list-style-position: inside;
+  list-style-type: border;
 }
 main {
   padding: 102px 88px 102px 88px;
