@@ -25,3 +25,6 @@ h2 {
 main {
   padding: 102px 88px 102px 88px;
 }
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
