@@ -1,26 +1,33 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: #93989c;
-  width: fit-content;
+  background: #ebeef0;
 }
 h1 {
   color: #f37e53;
+  text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
+  position: center;
+  flex: auto;
+  box-shadow: 6px 6px 20px;
+  width: 500px;
+  margin: 0 auto;
+  background: rgb(167, 163, 163);
+  margin-top: 100px;
+  padding: 10px 10px 10px 10px;
 }
 h2 {
   color: #f37e53;
+  text-align: center;
+  font-size: 35px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.list {
-  font-size: 14px;
-  line-height: 24px;
-  margin-left: 0px;
-  padding-left: 0px;
-  list-style-position: inside;
-  list-style-type: border;
+.list ::before {
+  width: 100px;
+  background: red;
+  height: 20px;
 }
 main {
   padding: 102px 88px 102px 88px;
@@ -28,3 +35,21 @@ main {
 .scroll-smooth {
   scroll-behavior: smooth;
 }
+.wrapper {
+  flex-direction: left;
+  justify-content: left;
+  width: 500px;
+  margin: 0 auto;
+  background: rgb(167, 163, 163);
+  box-shadow: 6px 6px 20px;
+  text-align: center;
+  text-align-last: auto;
+}
+.button {
+  position: center;
+  text-align: center;
+  flex: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+@media screen and (max-width: 640px);
