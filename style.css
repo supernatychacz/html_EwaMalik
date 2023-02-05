@@ -3,7 +3,7 @@ body {
   background: #ebeef0;
 }
 h1 {
-  color: #f37e53;
+  color: #585381;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-weight: 700;
@@ -14,21 +14,33 @@ h1 {
   box-shadow: 6px 6px 20px;
   width: 500px;
   margin: 0 auto;
-  background: rgb(167, 163, 163);
+  background: rgb(136, 193, 207);
   margin-top: 100px;
   padding: 10px 10px 10px 10px;
+  animation: blinker 1s linear infinite;
 }
+#emailBtn {
+  display: block;
+  margin: auto;
+  position: center;
+  background-color: #ebeef0;
+  border-color: #585381;
+  color: rgb(19, 18, 18);
+  text-shadow: black;
+  text-decoration: solid;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 h2 {
-  color: #f37e53;
+  color: #585381;
   text-align: center;
   font-size: 35px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.list ::before {
-  width: 100px;
-  background: red;
-  height: 20px;
-}
+
 main {
   padding: 102px 88px 102px 88px;
 }
@@ -40,16 +52,25 @@ main {
   justify-content: left;
   width: 500px;
   margin: 0 auto;
-  background: rgb(167, 163, 163);
-  box-shadow: 6px 6px 20px;
+  background: rgb(136, 193, 207);
+  box-shadow: 3px 3px 10px;
   text-align: center;
   text-align-last: auto;
+  padding-bottom: 3px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 .button {
+  border-color: #585381;
+  border-radius: 15%;
+  color: black;
   position: center;
   text-align: center;
   flex: auto;
-  margin: 0 auto;
-  padding-top: 20px;
+  margin-top: 10px;
 }
 @media screen and (max-width: 640px);
